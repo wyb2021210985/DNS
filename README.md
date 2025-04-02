@@ -9,7 +9,7 @@ dnsrelay 111 -d 10.3.9.45 C:/ComputerNetwork/DNSTable.txt
 域名和IP组成的一个二元组：
 typedef struct DNSRelay
 {
-   char* IP;          //IP
+    char* IP;          //IP
     char* domin;       //域名
     int length;        //表的长度
 }DNSRelay;
